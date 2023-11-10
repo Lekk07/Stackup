@@ -1,22 +1,55 @@
-## Specific issue/feature
-> Type it in here
-
-## Complete feature details
-> Explain in detail what the new feature (should) do.
-> Please remove this part if you are here regarding an issue
-
-## Complete Error Log
-> Add your error log here if you came up here with an error
-> Please remove this part if you are here for a new feature
-
-👇🏿 Remove these guidelines before filing the issue.
-
-## Guidelines 
-
-> Please google/duckduckgo before asking here
-
-❗ Please ask specific questions. Check how to ask [smart questions](http://catb.org/~esr/faqs/smart-questions.html) before filing the issue
-
-🐛 Add the complete log of error message with source code, if you are asking to help fix a specific bug/problem you encountered. 
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+ }
+ 
+ header {
+    background-color: #333333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+ }
+ 
+ nav ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: #eee;
+ }
+ 
+ nav ul li {
+    display: inline;
+    margin-right: 10px;
+ }
+ 
+ nav ul li a {
+    text-decoration: none;
+    color: #333;
+ }
+ 
+ .product {
+    position: relative;
+    overflow: hidden;
+    padding: 20px 0;
+ }
+ 
+ .product-category {
+    padding: 0 10vw;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 40px;
+    text-transform: capitalize;
+ }
+ 
+ footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+ }
 
 
